@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+section nav .logo img{
+    padding-left: 10px;
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section nav ul a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: darkgreen;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section nav ul li a:hover::after{
+    width: 100%;
+}
+
+section nav ul li a:hover{
+    color: darkgreen;
+}
+
+section nav .icon i{
+    font-size: 18px;
+    color: #000000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section nav .icon i:hover{
+color: darkgreen;
+}
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+    margin-right: 100px;
+}
+
+section .main .main_text h1{
+    font-size: 60px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+section .main .main_text h1 span{
+    margin-left: 15px;
+    color: darkgreen;
+    font-family: sans-serif;
+    line-height: 22px;
+    font-size: 80px;
+}
+
+section .main .main_image img{
+    width: 400px;
+    position: relative;
+    left: 70px;
+    
+}
+
+section p{
+    width: 650px;
+    text-align: justify;
+    position: relative;
+    left: 140px;
+    bottom: 150px;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+section .main_btn{
+    background: #000000;
+    position: relative;
+    left: 140px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+section .main_btn a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
