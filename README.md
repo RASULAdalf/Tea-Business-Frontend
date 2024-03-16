@@ -2,7 +2,7 @@
 
  ----------------------------- URL'S FOR FRONTEND CREATION ---------------------------------
 
-# ----------- TeaBag --------------- [ RELATED TO TEABAG TABLE ]
+# ----------- TeaBag --------------- [ RELATED TO TEABAG TABLE - THIS IS THE ADMIN PART ]
 ```
 1. Save - https://puzzled-boa-sunglasses.cyclic.app/api/v1/teabag/save (A POST method request)
    ex. {
@@ -65,7 +65,7 @@
             }
         ]
 ```
-# --------------- Order -------------------- [ RELATED TO ORDER TABLE ]
+# --------------- Order -------------------- [ RELATED TO ORDER TABLE - THIS IS THE CUSTOMER INTERFACE RELATED PART ]
 ``` 
  1. Save - https://puzzled-boa-sunglasses.cyclic.app/api/v1/order/save (A POST method request)
    ex. {
