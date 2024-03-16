@@ -136,7 +136,7 @@
             "itemFullPrice":500
         }
     ]
-}This is the request body that needs to be sent to the backend in row json format. ItemId in the order table and the id in the teabag table has a  foreign key relationship.
+}This is the request body that needs to be sent to the backend in row json format. ItemId in the order table and the id in the teabag table has a  foreign key relationship. 
 
 3. Delete - https://puzzled-boa-sunglasses.cyclic.app/api/v1/order/delete?      
             id=65e9bb971a96d370701d016d (A DELETE method request)
